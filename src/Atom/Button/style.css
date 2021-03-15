@@ -1,0 +1,12 @@
+.button-component{
+    margin: auto;
+    border: 2px solid lightskyblue;
+    border-radius: 5px;
+    max-width: 8em;
+    padding: 1em;
+    text-align: center;
+}
+
+.button-component .button-label{
+    font-size: 18px;
+}
