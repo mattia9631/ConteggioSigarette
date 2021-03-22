@@ -1,10 +1,16 @@
 import './App.css';
 import Summary from './Molecules/Overall/Summary';
+import {Container,Row,Col} from 'react-bootstrap'
+import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
-    <div className="App-container">
+    <Container>
+      <Row>
+      <Col>
       <Summary></Summary>
-    </div>
+      </Col>
+      </Row>
+    </Container>
   );
 }
 
